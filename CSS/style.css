@@ -58,10 +58,13 @@
     left: 75%;
     display: inline-block;
 }
-.third-row{
+
+.third-row {
     position: relative;
     height: calc(100vh - 290px);
+    /* calc() I've used this property many times in my other projects. It helps remove the scroll bar and makes the webpage responsive. */
 }
+
 .light-purple-box {
     background-color: #CD94E2;
     height: calc(100vh - 290px);
