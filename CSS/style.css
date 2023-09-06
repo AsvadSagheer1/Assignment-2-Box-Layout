@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    border: 2px solid white;
+    width: 100%;
+}
+
 .parent-container {
     position: relative;
     width: 100%;
@@ -61,13 +66,13 @@
 
 .third-row {
     position: relative;
-    height: calc(100vh - 290px);
+    height: calc(100vh - 294px);
     /* calc() I've used this property many times in my other projects. It helps remove the scroll bar and makes the webpage responsive. */
 }
 
 .light-purple-box {
     background-color: #CD94E2;
-    height: calc(100vh - 290px);
+    height: calc(100vh - 294px);
     width: 12.5%;
     position: absolute;
 }
@@ -86,7 +91,7 @@
 .grey-box {
     background-color: #41474A;
     width: 12.5%;
-    height: calc(100vh - 190px);
+    height: calc(100vh - 194px);
     position: absolute;
     right: 0;
 }
