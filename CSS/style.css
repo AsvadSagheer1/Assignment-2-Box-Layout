@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.parent-container {
+    position: relative;
+    width: 100%;
+    border: 10px solid #000;
+}
+.top-blue-box{
+    top: 10px;
+    left: 10px;
+    height: 90px;
+    background-color: rgb(100, 168, 255);
+}
