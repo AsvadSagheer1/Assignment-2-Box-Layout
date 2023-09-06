@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent-container {
+    position: relative;
+    width: 100%;
+    border: 10px solid #121212;
+    background-color: #121212;
+}
+
+.top-blue-box {
+    top: 10px;
+    left: 10px;
+    height: 90px;
+    background-color: #64A8FF;
+}
+
+.second-row {
+    top: 100px;
+    left: 10px;
+    height: 80px;
+}
+
+.orange-box {
+    width: 25%;
+    height: 80px;
+    background-color: #E87A44;
+    position: relative;
+    display: inline-block;
+}
+
+.brown-box {
+    width: 25%;
+    height: 80px;
+    background-color: #784100;
+    position: absolute;
+    left: 25%;
+    display: inline-block;
+}
+
+.pink-box {
+    width: 25%;
+    height: 80px;
+    background-color: #FF7498;
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+}
+
+.purple-box {
+    width: 25%;
+    height: 80px;
+    background-color: #5B5AB2;
+    position: absolute;
+    left: 75%;
+    display: inline-block;
+}
+
+.third-row {
+    position: relative;
+    height: calc(100vh - 290px);
+    /* calc() I've used this property many times in my other projects. It helps remove the scroll bar and makes the webpage responsive. */
+}
+
+.light-purple-box {
+    background-color: #CD94E2;
+    height: calc(100vh - 290px);
+    width: 12.5%;
+    position: absolute;
+}
+
+.yellow-middle-box {
+    background-color: #806800;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+}
+
+.grey-box {
+    background-color: #41474A;
+    width: 12.5%;
+    height: calc(100vh - 190px);
+    position: absolute;
+    right: 0;
+}
+
+.green-box {
+    background-color: #008541;
+    width: 100%;
+    height: 100px;
+}
